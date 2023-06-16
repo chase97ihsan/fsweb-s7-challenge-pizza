@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Chelsea+Market&family=Roboto+Mono&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Quattrocento:wght@700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+.anasayfa {
+  color: white;
+
+  font-family: "Barlow", sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 60px;
+  font-weight: 300;
+
+  background: url("../Assets/mvp-banner.png");
+  height: 100vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+
+  background-size: cover;
+}
+
+.anasayfa a {
+  text-decoration: none;
+  padding: 15px 60px;
+  font-size: 20px;
+  border: 1px solid #fdc913;
+  border-radius: 30px;
+  background-color: #fdc913;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+}
+.anasayfa a:hover {
+  background-color: white;
+}
+.anasayfa .pizzadoyurur {
+  margin-top: 0;
+  padding-top: 0;
+}
+.anasayfa p {
+  margin-bottom: 0;
+}
+.anasayfa #order-pizza {
+  margin-top: 0.6%;
+}
